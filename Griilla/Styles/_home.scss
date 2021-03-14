@@ -1,0 +1,47 @@
+.home{
+    background: radial-gradient(#525252, #131313);
+}
+
+.nav-container{
+    background: transparent;
+}
+
+
+
+
+
+    ul{
+        display: flex;
+        justify-content: space-between;
+        flex: 1;
+        list-style: none;
+    }
+    #ogo {
+        flex: 3;
+    }
+}
+
+.showcase{
+    display: grid;
+    min-height: 90vh;
+    grid-template-columns: 10% repeat(4, minmax(5rem, 1fr)) 10%;
+    grid-template-rows:  0.2fr 0.2fr 0.3fr 0.4fr;
+
+    
+    .logoheader{
+       grid-row: 2/3; 
+       grid-column: 3/5;
+       height: 60;
+       object-fit: cover;
+       align-self: center;
+       justify-self: center;
+    }
+
+    h1{
+        grid-row: 3/4;
+        grid-column: 4/5;
+    }
+
+
+
+}
